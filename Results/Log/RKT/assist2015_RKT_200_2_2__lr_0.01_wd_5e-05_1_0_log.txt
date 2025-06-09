@@ -1,0 +1,700 @@
+Namespace(gpu=0, seed=1, model_type='RKT', max_iter=100, maxgradnorm=50.0, date='00_00', optim='Adagrad', wd=5e-05, init_lr=0.01, lr_decay=0, momentum=0.9, generate_followup_trends=1, num_learningpattern=2, num_followup_attempts=2, batch_size=128, q_embed_dim=50, qa_embed_dim=200, final_fc_dim=100, memory_size=20, vis_pred=0, record_result_over_timestamp_test=0, test_differentpattern=1, dataset_type='assist2015', datascalability=1, num_train_test_valid=-1, n_question=110, seqlen=200, data_dir='./Data/assist2015', data_name='assist2015')Epoch 1/100, train loss : 0.56910, train auc : 0.60451, train accuracy : 0.72916
+Epoch 1/100 Train Cost Time: 4.59164
+Epoch 1/100, valid loss: 0.55777, valid auc : 0.62947, valid accuracy : 0.73730
+best outcome:-----------------------------
+best epoch: 1.0000
+valid_auc: 0.6295	valid_accuracy: 0.7373	valid_loss: 0.5578	
+test_auc: 0.6321	test_accuracy: 0.7317	test_loss: 0.5566	
+Epoch 2/100, train loss : 0.55985, train auc : 0.63388, train accuracy : 0.73187
+Epoch 2/100 Train Cost Time: 4.09076
+Epoch 2/100, valid loss: 0.55114, valid auc : 0.64632, valid accuracy : 0.73758
+best outcome:-----------------------------
+best epoch: 2.0000
+valid_auc: 0.6463	valid_accuracy: 0.7376	valid_loss: 0.5511	
+test_auc: 0.6493	test_accuracy: 0.7333	test_loss: 0.5493	
+Epoch 3/100, train loss : 0.55258, train auc : 0.65415, train accuracy : 0.73362
+Epoch 3/100 Train Cost Time: 4.19500
+Epoch 3/100, valid loss: 0.54592, valid auc : 0.65867, valid accuracy : 0.73826
+best outcome:-----------------------------
+best epoch: 3.0000
+valid_auc: 0.6587	valid_accuracy: 0.7383	valid_loss: 0.5459	
+test_auc: 0.6607	test_accuracy: 0.7341	test_loss: 0.5448	
+Epoch 4/100, train loss : 0.54958, train auc : 0.66163, train accuracy : 0.73432
+Epoch 4/100 Train Cost Time: 4.05314
+Epoch 4/100, valid loss: 0.54401, valid auc : 0.66257, valid accuracy : 0.73944
+best outcome:-----------------------------
+best epoch: 4.0000
+valid_auc: 0.6626	valid_accuracy: 0.7394	valid_loss: 0.5440	
+test_auc: 0.6646	test_accuracy: 0.7344	test_loss: 0.5430	
+Epoch 5/100, train loss : 0.54804, train auc : 0.66510, train accuracy : 0.73487
+Epoch 5/100 Train Cost Time: 4.05527
+Epoch 5/100, valid loss: 0.54249, valid auc : 0.66540, valid accuracy : 0.73967
+best outcome:-----------------------------
+best epoch: 5.0000
+valid_auc: 0.6654	valid_accuracy: 0.7397	valid_loss: 0.5425	
+test_auc: 0.6677	test_accuracy: 0.7352	test_loss: 0.5415	
+Epoch 6/100, train loss : 0.54675, train auc : 0.66793, train accuracy : 0.73552
+Epoch 6/100 Train Cost Time: 4.19136
+Epoch 6/100, valid loss: 0.54130, valid auc : 0.66760, valid accuracy : 0.74015
+best outcome:-----------------------------
+best epoch: 6.0000
+valid_auc: 0.6676	valid_accuracy: 0.7401	valid_loss: 0.5413	
+test_auc: 0.6700	test_accuracy: 0.7356	test_loss: 0.5403	
+Epoch 7/100, train loss : 0.54573, train auc : 0.66983, train accuracy : 0.73611
+Epoch 7/100 Train Cost Time: 3.84933
+Epoch 7/100, valid loss: 0.54034, valid auc : 0.66923, valid accuracy : 0.74053
+best outcome:-----------------------------
+best epoch: 7.0000
+valid_auc: 0.6692	valid_accuracy: 0.7405	valid_loss: 0.5403	
+test_auc: 0.6717	test_accuracy: 0.7361	test_loss: 0.5393	
+Epoch 8/100, train loss : 0.54500, train auc : 0.67131, train accuracy : 0.73632
+Epoch 8/100 Train Cost Time: 3.92232
+Epoch 8/100, valid loss: 0.53978, valid auc : 0.67048, valid accuracy : 0.74093
+best outcome:-----------------------------
+best epoch: 8.0000
+valid_auc: 0.6705	valid_accuracy: 0.7409	valid_loss: 0.5398	
+test_auc: 0.6730	test_accuracy: 0.7366	test_loss: 0.5387	
+Epoch 9/100, train loss : 0.54433, train auc : 0.67257, train accuracy : 0.73663
+Epoch 9/100 Train Cost Time: 3.97186
+Epoch 9/100, valid loss: 0.53923, valid auc : 0.67153, valid accuracy : 0.74110
+best outcome:-----------------------------
+best epoch: 9.0000
+valid_auc: 0.6715	valid_accuracy: 0.7411	valid_loss: 0.5392	
+test_auc: 0.6741	test_accuracy: 0.7368	test_loss: 0.5381	
+Epoch 10/100, train loss : 0.54377, train auc : 0.67370, train accuracy : 0.73698
+Epoch 10/100 Train Cost Time: 4.03898
+Epoch 10/100, valid loss: 0.53875, valid auc : 0.67244, valid accuracy : 0.74133
+best outcome:-----------------------------
+best epoch: 10.0000
+valid_auc: 0.6724	valid_accuracy: 0.7413	valid_loss: 0.5388	
+test_auc: 0.6751	test_accuracy: 0.7373	test_loss: 0.5375	
+Epoch 11/100, train loss : 0.54336, train auc : 0.67436, train accuracy : 0.73720
+Epoch 11/100 Train Cost Time: 4.15551
+Epoch 11/100, valid loss: 0.53833, valid auc : 0.67338, valid accuracy : 0.74161
+best outcome:-----------------------------
+best epoch: 11.0000
+valid_auc: 0.6734	valid_accuracy: 0.7416	valid_loss: 0.5383	
+test_auc: 0.6760	test_accuracy: 0.7376	test_loss: 0.5371	
+Epoch 12/100, train loss : 0.54291, train auc : 0.67520, train accuracy : 0.73795
+Epoch 12/100 Train Cost Time: 4.13304
+Epoch 12/100, valid loss: 0.53795, valid auc : 0.67410, valid accuracy : 0.74173
+best outcome:-----------------------------
+best epoch: 12.0000
+valid_auc: 0.6741	valid_accuracy: 0.7417	valid_loss: 0.5379	
+test_auc: 0.6768	test_accuracy: 0.7379	test_loss: 0.5366	
+Epoch 13/100, train loss : 0.54251, train auc : 0.67597, train accuracy : 0.73770
+Epoch 13/100 Train Cost Time: 4.16584
+Epoch 13/100, valid loss: 0.53756, valid auc : 0.67482, valid accuracy : 0.74189
+best outcome:-----------------------------
+best epoch: 13.0000
+valid_auc: 0.6748	valid_accuracy: 0.7419	valid_loss: 0.5376	
+test_auc: 0.6776	test_accuracy: 0.7382	test_loss: 0.5361	
+Epoch 14/100, train loss : 0.54207, train auc : 0.67694, train accuracy : 0.73779
+Epoch 14/100 Train Cost Time: 3.97277
+Epoch 14/100, valid loss: 0.53722, valid auc : 0.67551, valid accuracy : 0.74201
+best outcome:-----------------------------
+best epoch: 14.0000
+valid_auc: 0.6755	valid_accuracy: 0.7420	valid_loss: 0.5372	
+test_auc: 0.6783	test_accuracy: 0.7383	test_loss: 0.5357	
+Epoch 15/100, train loss : 0.54188, train auc : 0.67725, train accuracy : 0.73775
+Epoch 15/100 Train Cost Time: 4.09206
+Epoch 15/100, valid loss: 0.53701, valid auc : 0.67606, valid accuracy : 0.74172
+best outcome:-----------------------------
+best epoch: 15.0000
+valid_auc: 0.6761	valid_accuracy: 0.7417	valid_loss: 0.5370	
+test_auc: 0.6789	test_accuracy: 0.7383	test_loss: 0.5354	
+Epoch 16/100, train loss : 0.54147, train auc : 0.67814, train accuracy : 0.73776
+Epoch 16/100 Train Cost Time: 4.09177
+Epoch 16/100, valid loss: 0.53679, valid auc : 0.67661, valid accuracy : 0.74187
+best outcome:-----------------------------
+best epoch: 16.0000
+valid_auc: 0.6766	valid_accuracy: 0.7419	valid_loss: 0.5368	
+test_auc: 0.6795	test_accuracy: 0.7383	test_loss: 0.5351	
+Epoch 17/100, train loss : 0.54110, train auc : 0.67877, train accuracy : 0.73790
+Epoch 17/100 Train Cost Time: 4.05084
+Epoch 17/100, valid loss: 0.53651, valid auc : 0.67718, valid accuracy : 0.74156
+best outcome:-----------------------------
+best epoch: 17.0000
+valid_auc: 0.6772	valid_accuracy: 0.7416	valid_loss: 0.5365	
+test_auc: 0.6801	test_accuracy: 0.7385	test_loss: 0.5347	
+Epoch 18/100, train loss : 0.54089, train auc : 0.67926, train accuracy : 0.73786
+Epoch 18/100 Train Cost Time: 3.97126
+Epoch 18/100, valid loss: 0.53629, valid auc : 0.67765, valid accuracy : 0.74156
+best outcome:-----------------------------
+best epoch: 18.0000
+valid_auc: 0.6776	valid_accuracy: 0.7416	valid_loss: 0.5363	
+test_auc: 0.6806	test_accuracy: 0.7386	test_loss: 0.5345	
+Epoch 19/100, train loss : 0.54093, train auc : 0.67915, train accuracy : 0.73773
+Epoch 19/100 Train Cost Time: 3.92810
+Epoch 19/100, valid loss: 0.53616, valid auc : 0.67802, valid accuracy : 0.74177
+best outcome:-----------------------------
+best epoch: 19.0000
+valid_auc: 0.6780	valid_accuracy: 0.7418	valid_loss: 0.5362	
+test_auc: 0.6811	test_accuracy: 0.7385	test_loss: 0.5343	
+Epoch 20/100, train loss : 0.54060, train auc : 0.67985, train accuracy : 0.73811
+Epoch 20/100 Train Cost Time: 3.95615
+Epoch 20/100, valid loss: 0.53599, valid auc : 0.67838, valid accuracy : 0.74207
+best outcome:-----------------------------
+best epoch: 20.0000
+valid_auc: 0.6784	valid_accuracy: 0.7421	valid_loss: 0.5360	
+test_auc: 0.6815	test_accuracy: 0.7387	test_loss: 0.5340	
+Epoch 21/100, train loss : 0.54048, train auc : 0.68010, train accuracy : 0.73788
+Epoch 21/100 Train Cost Time: 4.01768
+Epoch 21/100, valid loss: 0.53588, valid auc : 0.67875, valid accuracy : 0.74190
+best outcome:-----------------------------
+best epoch: 21.0000
+valid_auc: 0.6787	valid_accuracy: 0.7419	valid_loss: 0.5359	
+test_auc: 0.6819	test_accuracy: 0.7388	test_loss: 0.5338	
+Epoch 22/100, train loss : 0.54015, train auc : 0.68076, train accuracy : 0.73792
+Epoch 22/100 Train Cost Time: 4.19678
+Epoch 22/100, valid loss: 0.53573, valid auc : 0.67911, valid accuracy : 0.74189
+best outcome:-----------------------------
+best epoch: 22.0000
+valid_auc: 0.6791	valid_accuracy: 0.7419	valid_loss: 0.5357	
+test_auc: 0.6823	test_accuracy: 0.7388	test_loss: 0.5336	
+Epoch 23/100, train loss : 0.54000, train auc : 0.68117, train accuracy : 0.73803
+Epoch 23/100 Train Cost Time: 3.94303
+Epoch 23/100, valid loss: 0.53567, valid auc : 0.67938, valid accuracy : 0.74166
+best outcome:-----------------------------
+best epoch: 23.0000
+valid_auc: 0.6794	valid_accuracy: 0.7417	valid_loss: 0.5357	
+test_auc: 0.6826	test_accuracy: 0.7388	test_loss: 0.5335	
+Epoch 24/100, train loss : 0.53996, train auc : 0.68130, train accuracy : 0.73788
+Epoch 24/100 Train Cost Time: 4.02116
+Epoch 24/100, valid loss: 0.53549, valid auc : 0.67972, valid accuracy : 0.74185
+best outcome:-----------------------------
+best epoch: 24.0000
+valid_auc: 0.6797	valid_accuracy: 0.7419	valid_loss: 0.5355	
+test_auc: 0.6829	test_accuracy: 0.7388	test_loss: 0.5333	
+Epoch 25/100, train loss : 0.53966, train auc : 0.68192, train accuracy : 0.73829
+Epoch 25/100 Train Cost Time: 3.87904
+Epoch 25/100, valid loss: 0.53534, valid auc : 0.68002, valid accuracy : 0.74199
+best outcome:-----------------------------
+best epoch: 25.0000
+valid_auc: 0.6800	valid_accuracy: 0.7420	valid_loss: 0.5353	
+test_auc: 0.6833	test_accuracy: 0.7389	test_loss: 0.5331	
+Epoch 26/100, train loss : 0.53963, train auc : 0.68195, train accuracy : 0.73824
+Epoch 26/100 Train Cost Time: 3.99511
+Epoch 26/100, valid loss: 0.53524, valid auc : 0.68029, valid accuracy : 0.74196
+best outcome:-----------------------------
+best epoch: 26.0000
+valid_auc: 0.6803	valid_accuracy: 0.7420	valid_loss: 0.5352	
+test_auc: 0.6836	test_accuracy: 0.7388	test_loss: 0.5329	
+Epoch 27/100, train loss : 0.53948, train auc : 0.68234, train accuracy : 0.73804
+Epoch 27/100 Train Cost Time: 3.90789
+Epoch 27/100, valid loss: 0.53521, valid auc : 0.68046, valid accuracy : 0.74202
+best outcome:-----------------------------
+best epoch: 27.0000
+valid_auc: 0.6805	valid_accuracy: 0.7420	valid_loss: 0.5352	
+test_auc: 0.6838	test_accuracy: 0.7388	test_loss: 0.5328	
+Epoch 28/100, train loss : 0.53934, train auc : 0.68249, train accuracy : 0.73820
+Epoch 28/100 Train Cost Time: 3.93878
+Epoch 28/100, valid loss: 0.53509, valid auc : 0.68074, valid accuracy : 0.74185
+best outcome:-----------------------------
+best epoch: 28.0000
+valid_auc: 0.6807	valid_accuracy: 0.7419	valid_loss: 0.5351	
+test_auc: 0.6841	test_accuracy: 0.7388	test_loss: 0.5327	
+Epoch 29/100, train loss : 0.53927, train auc : 0.68279, train accuracy : 0.73825
+Epoch 29/100 Train Cost Time: 3.92465
+Epoch 29/100, valid loss: 0.53502, valid auc : 0.68093, valid accuracy : 0.74191
+best outcome:-----------------------------
+best epoch: 29.0000
+valid_auc: 0.6809	valid_accuracy: 0.7419	valid_loss: 0.5350	
+test_auc: 0.6843	test_accuracy: 0.7389	test_loss: 0.5326	
+Epoch 30/100, train loss : 0.53927, train auc : 0.68275, train accuracy : 0.73798
+Epoch 30/100 Train Cost Time: 4.35982
+Epoch 30/100, valid loss: 0.53495, valid auc : 0.68112, valid accuracy : 0.74178
+best outcome:-----------------------------
+best epoch: 30.0000
+valid_auc: 0.6811	valid_accuracy: 0.7418	valid_loss: 0.5350	
+test_auc: 0.6845	test_accuracy: 0.7390	test_loss: 0.5325	
+Epoch 31/100, train loss : 0.53906, train auc : 0.68319, train accuracy : 0.73804
+Epoch 31/100 Train Cost Time: 3.95473
+Epoch 31/100, valid loss: 0.53493, valid auc : 0.68126, valid accuracy : 0.74190
+best outcome:-----------------------------
+best epoch: 31.0000
+valid_auc: 0.6813	valid_accuracy: 0.7419	valid_loss: 0.5349	
+test_auc: 0.6847	test_accuracy: 0.7390	test_loss: 0.5324	
+Epoch 32/100, train loss : 0.53903, train auc : 0.68324, train accuracy : 0.73810
+Epoch 32/100 Train Cost Time: 3.92648
+Epoch 32/100, valid loss: 0.53487, valid auc : 0.68140, valid accuracy : 0.74197
+best outcome:-----------------------------
+best epoch: 32.0000
+valid_auc: 0.6814	valid_accuracy: 0.7420	valid_loss: 0.5349	
+test_auc: 0.6849	test_accuracy: 0.7390	test_loss: 0.5323	
+Epoch 33/100, train loss : 0.53905, train auc : 0.68334, train accuracy : 0.73807
+Epoch 33/100 Train Cost Time: 4.14087
+Epoch 33/100, valid loss: 0.53481, valid auc : 0.68152, valid accuracy : 0.74201
+best outcome:-----------------------------
+best epoch: 33.0000
+valid_auc: 0.6815	valid_accuracy: 0.7420	valid_loss: 0.5348	
+test_auc: 0.6850	test_accuracy: 0.7389	test_loss: 0.5322	
+Epoch 34/100, train loss : 0.53904, train auc : 0.68327, train accuracy : 0.73814
+Epoch 34/100 Train Cost Time: 4.00097
+Epoch 34/100, valid loss: 0.53478, valid auc : 0.68163, valid accuracy : 0.74201
+best outcome:-----------------------------
+best epoch: 34.0000
+valid_auc: 0.6816	valid_accuracy: 0.7420	valid_loss: 0.5348	
+test_auc: 0.6852	test_accuracy: 0.7389	test_loss: 0.5321	
+Epoch 35/100, train loss : 0.53885, train auc : 0.68373, train accuracy : 0.73791
+Epoch 35/100 Train Cost Time: 3.83028
+Epoch 35/100, valid loss: 0.53475, valid auc : 0.68169, valid accuracy : 0.74199
+best outcome:-----------------------------
+best epoch: 35.0000
+valid_auc: 0.6817	valid_accuracy: 0.7420	valid_loss: 0.5347	
+test_auc: 0.6853	test_accuracy: 0.7388	test_loss: 0.5321	
+Epoch 36/100, train loss : 0.53870, train auc : 0.68393, train accuracy : 0.73830
+Epoch 36/100 Train Cost Time: 3.99212
+Epoch 36/100, valid loss: 0.53473, valid auc : 0.68176, valid accuracy : 0.74201
+best outcome:-----------------------------
+best epoch: 36.0000
+valid_auc: 0.6818	valid_accuracy: 0.7420	valid_loss: 0.5347	
+test_auc: 0.6854	test_accuracy: 0.7388	test_loss: 0.5320	
+Epoch 37/100, train loss : 0.53879, train auc : 0.68375, train accuracy : 0.73838
+Epoch 37/100 Train Cost Time: 3.80924
+Epoch 37/100, valid loss: 0.53467, valid auc : 0.68187, valid accuracy : 0.74208
+best outcome:-----------------------------
+best epoch: 37.0000
+valid_auc: 0.6819	valid_accuracy: 0.7421	valid_loss: 0.5347	
+test_auc: 0.6855	test_accuracy: 0.7388	test_loss: 0.5319	
+Epoch 38/100, train loss : 0.53860, train auc : 0.68411, train accuracy : 0.73807
+Epoch 38/100 Train Cost Time: 4.15867
+Epoch 38/100, valid loss: 0.53463, valid auc : 0.68199, valid accuracy : 0.74199
+best outcome:-----------------------------
+best epoch: 38.0000
+valid_auc: 0.6820	valid_accuracy: 0.7420	valid_loss: 0.5346	
+test_auc: 0.6857	test_accuracy: 0.7388	test_loss: 0.5319	
+Epoch 39/100, train loss : 0.53863, train auc : 0.68409, train accuracy : 0.73825
+Epoch 39/100 Train Cost Time: 4.10236
+Epoch 39/100, valid loss: 0.53465, valid auc : 0.68201, valid accuracy : 0.74197
+best outcome:-----------------------------
+best epoch: 39.0000
+valid_auc: 0.6820	valid_accuracy: 0.7420	valid_loss: 0.5346	
+test_auc: 0.6857	test_accuracy: 0.7388	test_loss: 0.5319	
+Epoch 40/100, train loss : 0.53845, train auc : 0.68450, train accuracy : 0.73824
+Epoch 40/100 Train Cost Time: 3.94012
+Epoch 40/100, valid loss: 0.53459, valid auc : 0.68211, valid accuracy : 0.74201
+best outcome:-----------------------------
+best epoch: 40.0000
+valid_auc: 0.6821	valid_accuracy: 0.7420	valid_loss: 0.5346	
+test_auc: 0.6859	test_accuracy: 0.7388	test_loss: 0.5318	
+Epoch 41/100, train loss : 0.53856, train auc : 0.68425, train accuracy : 0.73813
+Epoch 41/100 Train Cost Time: 4.15998
+Epoch 41/100, valid loss: 0.53458, valid auc : 0.68217, valid accuracy : 0.74192
+best outcome:-----------------------------
+best epoch: 41.0000
+valid_auc: 0.6822	valid_accuracy: 0.7419	valid_loss: 0.5346	
+test_auc: 0.6859	test_accuracy: 0.7389	test_loss: 0.5317	
+Epoch 42/100, train loss : 0.53855, train auc : 0.68436, train accuracy : 0.73831
+Epoch 42/100 Train Cost Time: 4.09870
+Epoch 42/100, valid loss: 0.53454, valid auc : 0.68223, valid accuracy : 0.74211
+best outcome:-----------------------------
+best epoch: 42.0000
+valid_auc: 0.6822	valid_accuracy: 0.7421	valid_loss: 0.5345	
+test_auc: 0.6860	test_accuracy: 0.7388	test_loss: 0.5317	
+Epoch 43/100, train loss : 0.53852, train auc : 0.68445, train accuracy : 0.73798
+Epoch 43/100 Train Cost Time: 3.92400
+Epoch 43/100, valid loss: 0.53452, valid auc : 0.68229, valid accuracy : 0.74196
+best outcome:-----------------------------
+best epoch: 43.0000
+valid_auc: 0.6823	valid_accuracy: 0.7420	valid_loss: 0.5345	
+test_auc: 0.6861	test_accuracy: 0.7388	test_loss: 0.5316	
+Epoch 44/100, train loss : 0.53843, train auc : 0.68443, train accuracy : 0.73800
+Epoch 44/100 Train Cost Time: 3.90834
+Epoch 44/100, valid loss: 0.53451, valid auc : 0.68234, valid accuracy : 0.74193
+best outcome:-----------------------------
+best epoch: 44.0000
+valid_auc: 0.6823	valid_accuracy: 0.7419	valid_loss: 0.5345	
+test_auc: 0.6862	test_accuracy: 0.7388	test_loss: 0.5316	
+Epoch 45/100, train loss : 0.53840, train auc : 0.68450, train accuracy : 0.73826
+Epoch 45/100 Train Cost Time: 3.96466
+Epoch 45/100, valid loss: 0.53447, valid auc : 0.68242, valid accuracy : 0.74193
+best outcome:-----------------------------
+best epoch: 45.0000
+valid_auc: 0.6824	valid_accuracy: 0.7419	valid_loss: 0.5345	
+test_auc: 0.6863	test_accuracy: 0.7388	test_loss: 0.5316	
+Epoch 46/100, train loss : 0.53841, train auc : 0.68450, train accuracy : 0.73830
+Epoch 46/100 Train Cost Time: 3.89630
+Epoch 46/100, valid loss: 0.53448, valid auc : 0.68244, valid accuracy : 0.74183
+best outcome:-----------------------------
+best epoch: 46.0000
+valid_auc: 0.6824	valid_accuracy: 0.7418	valid_loss: 0.5345	
+test_auc: 0.6863	test_accuracy: 0.7388	test_loss: 0.5316	
+Epoch 47/100, train loss : 0.53831, train auc : 0.68481, train accuracy : 0.73853
+Epoch 47/100 Train Cost Time: 3.94999
+Epoch 47/100, valid loss: 0.53443, valid auc : 0.68252, valid accuracy : 0.74199
+best outcome:-----------------------------
+best epoch: 47.0000
+valid_auc: 0.6825	valid_accuracy: 0.7420	valid_loss: 0.5344	
+test_auc: 0.6864	test_accuracy: 0.7388	test_loss: 0.5315	
+Epoch 48/100, train loss : 0.53824, train auc : 0.68479, train accuracy : 0.73824
+Epoch 48/100 Train Cost Time: 4.02742
+Epoch 48/100, valid loss: 0.53441, valid auc : 0.68258, valid accuracy : 0.74200
+best outcome:-----------------------------
+best epoch: 48.0000
+valid_auc: 0.6826	valid_accuracy: 0.7420	valid_loss: 0.5344	
+test_auc: 0.6865	test_accuracy: 0.7388	test_loss: 0.5315	
+Epoch 49/100, train loss : 0.53832, train auc : 0.68474, train accuracy : 0.73853
+Epoch 49/100 Train Cost Time: 3.89879
+Epoch 49/100, valid loss: 0.53440, valid auc : 0.68261, valid accuracy : 0.74202
+best outcome:-----------------------------
+best epoch: 49.0000
+valid_auc: 0.6826	valid_accuracy: 0.7420	valid_loss: 0.5344	
+test_auc: 0.6865	test_accuracy: 0.7388	test_loss: 0.5314	
+Epoch 50/100, train loss : 0.53832, train auc : 0.68473, train accuracy : 0.73817
+Epoch 50/100 Train Cost Time: 4.00002
+Epoch 50/100, valid loss: 0.53441, valid auc : 0.68263, valid accuracy : 0.74197
+best outcome:-----------------------------
+best epoch: 50.0000
+valid_auc: 0.6826	valid_accuracy: 0.7420	valid_loss: 0.5344	
+test_auc: 0.6865	test_accuracy: 0.7388	test_loss: 0.5314	
+Epoch 51/100, train loss : 0.53807, train auc : 0.68520, train accuracy : 0.73828
+Epoch 51/100 Train Cost Time: 4.02127
+Epoch 51/100, valid loss: 0.53441, valid auc : 0.68264, valid accuracy : 0.74194
+best outcome:-----------------------------
+best epoch: 51.0000
+valid_auc: 0.6826	valid_accuracy: 0.7419	valid_loss: 0.5344	
+test_auc: 0.6866	test_accuracy: 0.7388	test_loss: 0.5314	
+Epoch 52/100, train loss : 0.53805, train auc : 0.68516, train accuracy : 0.73813
+Epoch 52/100 Train Cost Time: 4.01710
+Epoch 52/100, valid loss: 0.53437, valid auc : 0.68272, valid accuracy : 0.74194
+best outcome:-----------------------------
+best epoch: 52.0000
+valid_auc: 0.6827	valid_accuracy: 0.7419	valid_loss: 0.5344	
+test_auc: 0.6867	test_accuracy: 0.7388	test_loss: 0.5313	
+Epoch 53/100, train loss : 0.53796, train auc : 0.68540, train accuracy : 0.73841
+Epoch 53/100 Train Cost Time: 3.91100
+Epoch 53/100, valid loss: 0.53437, valid auc : 0.68273, valid accuracy : 0.74199
+best outcome:-----------------------------
+best epoch: 53.0000
+valid_auc: 0.6827	valid_accuracy: 0.7420	valid_loss: 0.5344	
+test_auc: 0.6867	test_accuracy: 0.7388	test_loss: 0.5313	
+Epoch 54/100, train loss : 0.53820, train auc : 0.68485, train accuracy : 0.73817
+Epoch 54/100 Train Cost Time: 3.94562
+Epoch 54/100, valid loss: 0.53433, valid auc : 0.68280, valid accuracy : 0.74190
+best outcome:-----------------------------
+best epoch: 54.0000
+valid_auc: 0.6828	valid_accuracy: 0.7419	valid_loss: 0.5343	
+test_auc: 0.6868	test_accuracy: 0.7388	test_loss: 0.5313	
+Epoch 55/100, train loss : 0.53793, train auc : 0.68540, train accuracy : 0.73824
+Epoch 55/100 Train Cost Time: 3.96560
+Epoch 55/100, valid loss: 0.53432, valid auc : 0.68282, valid accuracy : 0.74208
+best outcome:-----------------------------
+best epoch: 55.0000
+valid_auc: 0.6828	valid_accuracy: 0.7421	valid_loss: 0.5343	
+test_auc: 0.6868	test_accuracy: 0.7389	test_loss: 0.5313	
+Epoch 56/100, train loss : 0.53801, train auc : 0.68530, train accuracy : 0.73856
+Epoch 56/100 Train Cost Time: 4.00214
+Epoch 56/100, valid loss: 0.53432, valid auc : 0.68285, valid accuracy : 0.74204
+best outcome:-----------------------------
+best epoch: 56.0000
+valid_auc: 0.6828	valid_accuracy: 0.7420	valid_loss: 0.5343	
+test_auc: 0.6869	test_accuracy: 0.7389	test_loss: 0.5312	
+Epoch 57/100, train loss : 0.53790, train auc : 0.68547, train accuracy : 0.73818
+Epoch 57/100 Train Cost Time: 3.98630
+Epoch 57/100, valid loss: 0.53430, valid auc : 0.68290, valid accuracy : 0.74205
+best outcome:-----------------------------
+best epoch: 57.0000
+valid_auc: 0.6829	valid_accuracy: 0.7420	valid_loss: 0.5343	
+test_auc: 0.6869	test_accuracy: 0.7388	test_loss: 0.5312	
+Epoch 58/100, train loss : 0.53791, train auc : 0.68550, train accuracy : 0.73841
+Epoch 58/100 Train Cost Time: 3.86523
+Epoch 58/100, valid loss: 0.53426, valid auc : 0.68296, valid accuracy : 0.74206
+best outcome:-----------------------------
+best epoch: 58.0000
+valid_auc: 0.6830	valid_accuracy: 0.7421	valid_loss: 0.5343	
+test_auc: 0.6870	test_accuracy: 0.7388	test_loss: 0.5312	
+Epoch 59/100, train loss : 0.53803, train auc : 0.68522, train accuracy : 0.73830
+Epoch 59/100 Train Cost Time: 3.81920
+Epoch 59/100, valid loss: 0.53426, valid auc : 0.68298, valid accuracy : 0.74202
+best outcome:-----------------------------
+best epoch: 59.0000
+valid_auc: 0.6830	valid_accuracy: 0.7420	valid_loss: 0.5343	
+test_auc: 0.6870	test_accuracy: 0.7388	test_loss: 0.5312	
+Epoch 60/100, train loss : 0.53795, train auc : 0.68544, train accuracy : 0.73838
+Epoch 60/100 Train Cost Time: 4.28132
+Epoch 60/100, valid loss: 0.53426, valid auc : 0.68299, valid accuracy : 0.74209
+best outcome:-----------------------------
+best epoch: 60.0000
+valid_auc: 0.6830	valid_accuracy: 0.7421	valid_loss: 0.5343	
+test_auc: 0.6870	test_accuracy: 0.7388	test_loss: 0.5311	
+Epoch 61/100, train loss : 0.53782, train auc : 0.68555, train accuracy : 0.73866
+Epoch 61/100 Train Cost Time: 4.29554
+Epoch 61/100, valid loss: 0.53422, valid auc : 0.68306, valid accuracy : 0.74203
+best outcome:-----------------------------
+best epoch: 61.0000
+valid_auc: 0.6831	valid_accuracy: 0.7420	valid_loss: 0.5342	
+test_auc: 0.6871	test_accuracy: 0.7389	test_loss: 0.5311	
+Epoch 62/100, train loss : 0.53790, train auc : 0.68549, train accuracy : 0.73836
+Epoch 62/100 Train Cost Time: 3.93658
+Epoch 62/100, valid loss: 0.53421, valid auc : 0.68311, valid accuracy : 0.74213
+best outcome:-----------------------------
+best epoch: 62.0000
+valid_auc: 0.6831	valid_accuracy: 0.7421	valid_loss: 0.5342	
+test_auc: 0.6872	test_accuracy: 0.7389	test_loss: 0.5311	
+Epoch 63/100, train loss : 0.53785, train auc : 0.68567, train accuracy : 0.73870
+Epoch 63/100 Train Cost Time: 3.90346
+Epoch 63/100, valid loss: 0.53420, valid auc : 0.68314, valid accuracy : 0.74210
+best outcome:-----------------------------
+best epoch: 63.0000
+valid_auc: 0.6831	valid_accuracy: 0.7421	valid_loss: 0.5342	
+test_auc: 0.6872	test_accuracy: 0.7390	test_loss: 0.5311	
+Epoch 64/100, train loss : 0.53776, train auc : 0.68578, train accuracy : 0.73847
+Epoch 64/100 Train Cost Time: 4.07527
+Epoch 64/100, valid loss: 0.53421, valid auc : 0.68315, valid accuracy : 0.74208
+best outcome:-----------------------------
+best epoch: 64.0000
+valid_auc: 0.6831	valid_accuracy: 0.7421	valid_loss: 0.5342	
+test_auc: 0.6873	test_accuracy: 0.7390	test_loss: 0.5310	
+Epoch 65/100, train loss : 0.53789, train auc : 0.68545, train accuracy : 0.73850
+Epoch 65/100 Train Cost Time: 4.01512
+Epoch 65/100, valid loss: 0.53418, valid auc : 0.68321, valid accuracy : 0.74210
+best outcome:-----------------------------
+best epoch: 65.0000
+valid_auc: 0.6832	valid_accuracy: 0.7421	valid_loss: 0.5342	
+test_auc: 0.6873	test_accuracy: 0.7390	test_loss: 0.5310	
+Epoch 66/100, train loss : 0.53780, train auc : 0.68559, train accuracy : 0.73857
+Epoch 66/100 Train Cost Time: 3.92235
+Epoch 66/100, valid loss: 0.53417, valid auc : 0.68324, valid accuracy : 0.74208
+best outcome:-----------------------------
+best epoch: 66.0000
+valid_auc: 0.6832	valid_accuracy: 0.7421	valid_loss: 0.5342	
+test_auc: 0.6874	test_accuracy: 0.7390	test_loss: 0.5310	
+Epoch 67/100, train loss : 0.53781, train auc : 0.68556, train accuracy : 0.73858
+Epoch 67/100 Train Cost Time: 4.00960
+Epoch 67/100, valid loss: 0.53415, valid auc : 0.68326, valid accuracy : 0.74210
+best outcome:-----------------------------
+best epoch: 67.0000
+valid_auc: 0.6833	valid_accuracy: 0.7421	valid_loss: 0.5341	
+test_auc: 0.6874	test_accuracy: 0.7390	test_loss: 0.5309	
+Epoch 68/100, train loss : 0.53783, train auc : 0.68569, train accuracy : 0.73834
+Epoch 68/100 Train Cost Time: 4.11373
+Epoch 68/100, valid loss: 0.53414, valid auc : 0.68331, valid accuracy : 0.74203
+best outcome:-----------------------------
+best epoch: 68.0000
+valid_auc: 0.6833	valid_accuracy: 0.7420	valid_loss: 0.5341	
+test_auc: 0.6875	test_accuracy: 0.7391	test_loss: 0.5309	
+Epoch 69/100, train loss : 0.53768, train auc : 0.68601, train accuracy : 0.73844
+Epoch 69/100 Train Cost Time: 3.98770
+Epoch 69/100, valid loss: 0.53413, valid auc : 0.68332, valid accuracy : 0.74211
+best outcome:-----------------------------
+best epoch: 69.0000
+valid_auc: 0.6833	valid_accuracy: 0.7421	valid_loss: 0.5341	
+test_auc: 0.6875	test_accuracy: 0.7391	test_loss: 0.5309	
+Epoch 70/100, train loss : 0.53772, train auc : 0.68586, train accuracy : 0.73846
+Epoch 70/100 Train Cost Time: 3.87079
+Epoch 70/100, valid loss: 0.53412, valid auc : 0.68336, valid accuracy : 0.74207
+best outcome:-----------------------------
+best epoch: 70.0000
+valid_auc: 0.6834	valid_accuracy: 0.7421	valid_loss: 0.5341	
+test_auc: 0.6876	test_accuracy: 0.7390	test_loss: 0.5309	
+Epoch 71/100, train loss : 0.53779, train auc : 0.68573, train accuracy : 0.73857
+Epoch 71/100 Train Cost Time: 3.67708
+Epoch 71/100, valid loss: 0.53410, valid auc : 0.68340, valid accuracy : 0.74213
+best outcome:-----------------------------
+best epoch: 71.0000
+valid_auc: 0.6834	valid_accuracy: 0.7421	valid_loss: 0.5341	
+test_auc: 0.6876	test_accuracy: 0.7391	test_loss: 0.5309	
+Epoch 72/100, train loss : 0.53753, train auc : 0.68630, train accuracy : 0.73846
+Epoch 72/100 Train Cost Time: 4.18456
+Epoch 72/100, valid loss: 0.53407, valid auc : 0.68344, valid accuracy : 0.74214
+best outcome:-----------------------------
+best epoch: 72.0000
+valid_auc: 0.6834	valid_accuracy: 0.7421	valid_loss: 0.5341	
+test_auc: 0.6877	test_accuracy: 0.7390	test_loss: 0.5308	
+Epoch 73/100, train loss : 0.53762, train auc : 0.68603, train accuracy : 0.73856
+Epoch 73/100 Train Cost Time: 3.90242
+Epoch 73/100, valid loss: 0.53406, valid auc : 0.68350, valid accuracy : 0.74208
+best outcome:-----------------------------
+best epoch: 73.0000
+valid_auc: 0.6835	valid_accuracy: 0.7421	valid_loss: 0.5341	
+test_auc: 0.6877	test_accuracy: 0.7391	test_loss: 0.5308	
+Epoch 74/100, train loss : 0.53760, train auc : 0.68609, train accuracy : 0.73842
+Epoch 74/100 Train Cost Time: 3.96247
+Epoch 74/100, valid loss: 0.53402, valid auc : 0.68356, valid accuracy : 0.74212
+best outcome:-----------------------------
+best epoch: 74.0000
+valid_auc: 0.6836	valid_accuracy: 0.7421	valid_loss: 0.5340	
+test_auc: 0.6878	test_accuracy: 0.7391	test_loss: 0.5308	
+Epoch 75/100, train loss : 0.53751, train auc : 0.68620, train accuracy : 0.73883
+Epoch 75/100 Train Cost Time: 4.05443
+Epoch 75/100, valid loss: 0.53400, valid auc : 0.68360, valid accuracy : 0.74214
+best outcome:-----------------------------
+best epoch: 75.0000
+valid_auc: 0.6836	valid_accuracy: 0.7421	valid_loss: 0.5340	
+test_auc: 0.6879	test_accuracy: 0.7392	test_loss: 0.5307	
+Epoch 76/100, train loss : 0.53751, train auc : 0.68615, train accuracy : 0.73853
+Epoch 76/100 Train Cost Time: 4.40466
+Epoch 76/100, valid loss: 0.53401, valid auc : 0.68360, valid accuracy : 0.74211
+best outcome:-----------------------------
+best epoch: 76.0000
+valid_auc: 0.6836	valid_accuracy: 0.7421	valid_loss: 0.5340	
+test_auc: 0.6879	test_accuracy: 0.7392	test_loss: 0.5307	
+Epoch 77/100, train loss : 0.53764, train auc : 0.68602, train accuracy : 0.73844
+Epoch 77/100 Train Cost Time: 4.12359
+Epoch 77/100, valid loss: 0.53400, valid auc : 0.68365, valid accuracy : 0.74204
+best outcome:-----------------------------
+best epoch: 77.0000
+valid_auc: 0.6836	valid_accuracy: 0.7420	valid_loss: 0.5340	
+test_auc: 0.6879	test_accuracy: 0.7391	test_loss: 0.5307	
+Epoch 78/100, train loss : 0.53749, train auc : 0.68627, train accuracy : 0.73864
+Epoch 78/100 Train Cost Time: 4.06843
+Epoch 78/100, valid loss: 0.53398, valid auc : 0.68369, valid accuracy : 0.74219
+best outcome:-----------------------------
+best epoch: 78.0000
+valid_auc: 0.6837	valid_accuracy: 0.7422	valid_loss: 0.5340	
+test_auc: 0.6880	test_accuracy: 0.7392	test_loss: 0.5307	
+Epoch 79/100, train loss : 0.53753, train auc : 0.68623, train accuracy : 0.73895
+Epoch 79/100 Train Cost Time: 3.94380
+Epoch 79/100, valid loss: 0.53395, valid auc : 0.68375, valid accuracy : 0.74214
+best outcome:-----------------------------
+best epoch: 79.0000
+valid_auc: 0.6837	valid_accuracy: 0.7421	valid_loss: 0.5340	
+test_auc: 0.6881	test_accuracy: 0.7392	test_loss: 0.5306	
+Epoch 80/100, train loss : 0.53748, train auc : 0.68625, train accuracy : 0.73871
+Epoch 80/100 Train Cost Time: 4.12672
+Epoch 80/100, valid loss: 0.53392, valid auc : 0.68379, valid accuracy : 0.74218
+best outcome:-----------------------------
+best epoch: 80.0000
+valid_auc: 0.6838	valid_accuracy: 0.7422	valid_loss: 0.5339	
+test_auc: 0.6881	test_accuracy: 0.7392	test_loss: 0.5306	
+Epoch 81/100, train loss : 0.53737, train auc : 0.68660, train accuracy : 0.73865
+Epoch 81/100 Train Cost Time: 4.23490
+Epoch 81/100, valid loss: 0.53391, valid auc : 0.68381, valid accuracy : 0.74208
+best outcome:-----------------------------
+best epoch: 81.0000
+valid_auc: 0.6838	valid_accuracy: 0.7421	valid_loss: 0.5339	
+test_auc: 0.6881	test_accuracy: 0.7392	test_loss: 0.5306	
+Epoch 82/100, train loss : 0.53741, train auc : 0.68647, train accuracy : 0.73838
+Epoch 82/100 Train Cost Time: 4.04173
+Epoch 82/100, valid loss: 0.53389, valid auc : 0.68384, valid accuracy : 0.74221
+best outcome:-----------------------------
+best epoch: 82.0000
+valid_auc: 0.6838	valid_accuracy: 0.7422	valid_loss: 0.5339	
+test_auc: 0.6882	test_accuracy: 0.7392	test_loss: 0.5306	
+Epoch 83/100, train loss : 0.53745, train auc : 0.68622, train accuracy : 0.73872
+Epoch 83/100 Train Cost Time: 4.04894
+Epoch 83/100, valid loss: 0.53390, valid auc : 0.68386, valid accuracy : 0.74217
+best outcome:-----------------------------
+best epoch: 83.0000
+valid_auc: 0.6839	valid_accuracy: 0.7422	valid_loss: 0.5339	
+test_auc: 0.6882	test_accuracy: 0.7392	test_loss: 0.5305	
+Epoch 84/100, train loss : 0.53742, train auc : 0.68625, train accuracy : 0.73849
+Epoch 84/100 Train Cost Time: 4.06807
+Epoch 84/100, valid loss: 0.53389, valid auc : 0.68389, valid accuracy : 0.74216
+best outcome:-----------------------------
+best epoch: 84.0000
+valid_auc: 0.6839	valid_accuracy: 0.7422	valid_loss: 0.5339	
+test_auc: 0.6883	test_accuracy: 0.7392	test_loss: 0.5305	
+Epoch 85/100, train loss : 0.53736, train auc : 0.68648, train accuracy : 0.73883
+Epoch 85/100 Train Cost Time: 3.98515
+Epoch 85/100, valid loss: 0.53387, valid auc : 0.68391, valid accuracy : 0.74223
+best outcome:-----------------------------
+best epoch: 85.0000
+valid_auc: 0.6839	valid_accuracy: 0.7422	valid_loss: 0.5339	
+test_auc: 0.6883	test_accuracy: 0.7392	test_loss: 0.5305	
+Epoch 86/100, train loss : 0.53738, train auc : 0.68652, train accuracy : 0.73871
+Epoch 86/100 Train Cost Time: 4.34401
+Epoch 86/100, valid loss: 0.53386, valid auc : 0.68395, valid accuracy : 0.74223
+best outcome:-----------------------------
+best epoch: 86.0000
+valid_auc: 0.6839	valid_accuracy: 0.7422	valid_loss: 0.5339	
+test_auc: 0.6883	test_accuracy: 0.7392	test_loss: 0.5305	
+Epoch 87/100, train loss : 0.53750, train auc : 0.68636, train accuracy : 0.73877
+Epoch 87/100 Train Cost Time: 3.84029
+Epoch 87/100, valid loss: 0.53385, valid auc : 0.68394, valid accuracy : 0.74230
+Epoch 88/100, train loss : 0.53730, train auc : 0.68656, train accuracy : 0.73875
+Epoch 88/100 Train Cost Time: 3.99284
+Epoch 88/100, valid loss: 0.53386, valid auc : 0.68398, valid accuracy : 0.74229
+best outcome:-----------------------------
+best epoch: 88.0000
+valid_auc: 0.6840	valid_accuracy: 0.7423	valid_loss: 0.5339	
+test_auc: 0.6884	test_accuracy: 0.7392	test_loss: 0.5305	
+Epoch 89/100, train loss : 0.53727, train auc : 0.68665, train accuracy : 0.73842
+Epoch 89/100 Train Cost Time: 3.85340
+Epoch 89/100, valid loss: 0.53383, valid auc : 0.68403, valid accuracy : 0.74231
+best outcome:-----------------------------
+best epoch: 89.0000
+valid_auc: 0.6840	valid_accuracy: 0.7423	valid_loss: 0.5338	
+test_auc: 0.6884	test_accuracy: 0.7392	test_loss: 0.5304	
+Epoch 90/100, train loss : 0.53742, train auc : 0.68633, train accuracy : 0.73862
+Epoch 90/100 Train Cost Time: 3.93453
+Epoch 90/100, valid loss: 0.53382, valid auc : 0.68408, valid accuracy : 0.74227
+best outcome:-----------------------------
+best epoch: 90.0000
+valid_auc: 0.6841	valid_accuracy: 0.7423	valid_loss: 0.5338	
+test_auc: 0.6885	test_accuracy: 0.7392	test_loss: 0.5304	
+Epoch 91/100, train loss : 0.53718, train auc : 0.68684, train accuracy : 0.73900
+Epoch 91/100 Train Cost Time: 3.87216
+Epoch 91/100, valid loss: 0.53380, valid auc : 0.68410, valid accuracy : 0.74233
+best outcome:-----------------------------
+best epoch: 91.0000
+valid_auc: 0.6841	valid_accuracy: 0.7423	valid_loss: 0.5338	
+test_auc: 0.6885	test_accuracy: 0.7393	test_loss: 0.5304	
+Epoch 92/100, train loss : 0.53728, train auc : 0.68668, train accuracy : 0.73868
+Epoch 92/100 Train Cost Time: 3.95164
+Epoch 92/100, valid loss: 0.53378, valid auc : 0.68412, valid accuracy : 0.74223
+best outcome:-----------------------------
+best epoch: 92.0000
+valid_auc: 0.6841	valid_accuracy: 0.7422	valid_loss: 0.5338	
+test_auc: 0.6886	test_accuracy: 0.7392	test_loss: 0.5304	
+Epoch 93/100, train loss : 0.53708, train auc : 0.68710, train accuracy : 0.73889
+Epoch 93/100 Train Cost Time: 3.86575
+Epoch 93/100, valid loss: 0.53378, valid auc : 0.68414, valid accuracy : 0.74220
+best outcome:-----------------------------
+best epoch: 93.0000
+valid_auc: 0.6841	valid_accuracy: 0.7422	valid_loss: 0.5338	
+test_auc: 0.6886	test_accuracy: 0.7392	test_loss: 0.5303	
+Epoch 94/100, train loss : 0.53720, train auc : 0.68691, train accuracy : 0.73858
+Epoch 94/100 Train Cost Time: 3.93977
+Epoch 94/100, valid loss: 0.53375, valid auc : 0.68418, valid accuracy : 0.74229
+best outcome:-----------------------------
+best epoch: 94.0000
+valid_auc: 0.6842	valid_accuracy: 0.7423	valid_loss: 0.5337	
+test_auc: 0.6887	test_accuracy: 0.7392	test_loss: 0.5303	
+Epoch 95/100, train loss : 0.53730, train auc : 0.68662, train accuracy : 0.73870
+Epoch 95/100 Train Cost Time: 3.84171
+Epoch 95/100, valid loss: 0.53374, valid auc : 0.68420, valid accuracy : 0.74227
+best outcome:-----------------------------
+best epoch: 95.0000
+valid_auc: 0.6842	valid_accuracy: 0.7423	valid_loss: 0.5337	
+test_auc: 0.6887	test_accuracy: 0.7393	test_loss: 0.5303	
+Epoch 96/100, train loss : 0.53728, train auc : 0.68654, train accuracy : 0.73894
+Epoch 96/100 Train Cost Time: 4.01905
+Epoch 96/100, valid loss: 0.53373, valid auc : 0.68423, valid accuracy : 0.74226
+best outcome:-----------------------------
+best epoch: 96.0000
+valid_auc: 0.6842	valid_accuracy: 0.7423	valid_loss: 0.5337	
+test_auc: 0.6887	test_accuracy: 0.7392	test_loss: 0.5303	
+Epoch 97/100, train loss : 0.53721, train auc : 0.68674, train accuracy : 0.73864
+Epoch 97/100 Train Cost Time: 4.30310
+Epoch 97/100, valid loss: 0.53372, valid auc : 0.68424, valid accuracy : 0.74230
+best outcome:-----------------------------
+best epoch: 97.0000
+valid_auc: 0.6842	valid_accuracy: 0.7423	valid_loss: 0.5337	
+test_auc: 0.6887	test_accuracy: 0.7393	test_loss: 0.5303	
+Epoch 98/100, train loss : 0.53709, train auc : 0.68703, train accuracy : 0.73907
+Epoch 98/100 Train Cost Time: 4.25007
+Epoch 98/100, valid loss: 0.53372, valid auc : 0.68425, valid accuracy : 0.74227
+best outcome:-----------------------------
+best epoch: 98.0000
+valid_auc: 0.6842	valid_accuracy: 0.7423	valid_loss: 0.5337	
+test_auc: 0.6888	test_accuracy: 0.7392	test_loss: 0.5303	
+Epoch 99/100, train loss : 0.53721, train auc : 0.68679, train accuracy : 0.73878
+Epoch 99/100 Train Cost Time: 3.96361
+Epoch 99/100, valid loss: 0.53370, valid auc : 0.68429, valid accuracy : 0.74227
+best outcome:-----------------------------
+best epoch: 99.0000
+valid_auc: 0.6843	valid_accuracy: 0.7423	valid_loss: 0.5337	
+test_auc: 0.6888	test_accuracy: 0.7393	test_loss: 0.5302	
+Epoch 100/100, train loss : 0.53709, train auc : 0.68696, train accuracy : 0.73873
+Epoch 100/100 Train Cost Time: 3.97391
+Epoch 100/100, valid loss: 0.53368, valid auc : 0.68434, valid accuracy : 0.74232
+best outcome:-----------------------------
+best epoch: 100.0000
+valid_auc: 0.6843	valid_accuracy: 0.7423	valid_loss: 0.5337	
+test_auc: 0.6888	test_accuracy: 0.7393	test_loss: 0.5302	
+best outcome:-----------------------------
+best epoch: 100.0000
+valid_auc: 0.6843	valid_accuracy: 0.7423	valid_loss: 0.5337	
+test_auc: 0.6888	test_accuracy: 0.7393	test_loss: 0.5302	

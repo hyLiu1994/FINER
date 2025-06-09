@@ -1,0 +1,103 @@
+Namespace(batch_size=32, data_dir='./data/Algebra08', data_name='Algebra08', dataset_type='Algebra08', decay_epoch=20, final_fc_dim=100, final_lr=1e-05, future_sequence_len=2, generate_files=0, gpu=0, init_lr=0.01, init_std=0.1, learning_trend_embed_dim=200, load='Algebra08', lr=0.01, lr_decay=0, max_iter=25, maxgradnorm=50.0, memory_key_state_dim=50, memory_size=20, memory_value_state_dim=200, model_type='FINER-RKT', momentum=0.9, n_question=424, num_attention_heads=4, q_embed_dim=50, qa_embed_dim=200, read_dim=100, save='Algebra08', seed=3, seqlen=200, show=True, similar_user_num=2, test=False, train_test=0, wd=1e-05)Epoch 1/25, loss : 0.26908, auc : 0.87936, accuracy : 0.89794
+Epoch 1/25, valid auc : 0.90135, valid accuracy : 0.92669
+0.0000 to 0.9013
+test_auc: 0.8971	test_accuracy: 0.9200	test_loss: 0.2290	
+Epoch 2/25, loss : 0.20494, auc : 0.91399, accuracy : 0.92612
+Epoch 2/25, valid auc : 0.90588, valid accuracy : 0.92630
+0.9013 to 0.9059
+test_auc: 0.9007	test_accuracy: 0.9197	test_loss: 0.2252	
+Epoch 3/25, loss : 0.19979, auc : 0.91897, accuracy : 0.92834
+Epoch 3/25, valid auc : 0.90737, valid accuracy : 0.92684
+0.9059 to 0.9074
+test_auc: 0.9023	test_accuracy: 0.9200	test_loss: 0.2240	
+Epoch 4/25, loss : 0.19716, auc : 0.92147, accuracy : 0.92937
+Epoch 4/25, valid auc : 0.90840, valid accuracy : 0.92723
+0.9074 to 0.9084
+test_auc: 0.9039	test_accuracy: 0.9204	test_loss: 0.2230	
+Epoch 5/25, loss : 0.19497, auc : 0.92379, accuracy : 0.93022
+Epoch 5/25, valid auc : 0.90995, valid accuracy : 0.92787
+0.9084 to 0.9100
+test_auc: 0.9058	test_accuracy: 0.9210	test_loss: 0.2211	
+Epoch 6/25, loss : 0.19287, auc : 0.92616, accuracy : 0.93063
+Epoch 6/25, valid auc : 0.91142, valid accuracy : 0.92828
+0.9100 to 0.9114
+test_auc: 0.9073	test_accuracy: 0.9215	test_loss: 0.2195	
+Epoch 7/25, loss : 0.19112, auc : 0.92809, accuracy : 0.93118
+Epoch 7/25, valid auc : 0.91269, valid accuracy : 0.92840
+0.9114 to 0.9127
+test_auc: 0.9087	test_accuracy: 0.9218	test_loss: 0.2182	
+Epoch 8/25, loss : 0.18955, auc : 0.92969, accuracy : 0.93163
+Epoch 8/25, valid auc : 0.91373, valid accuracy : 0.92859
+0.9127 to 0.9137
+test_auc: 0.9098	test_accuracy: 0.9220	test_loss: 0.2173	
+Epoch 9/25, loss : 0.18838, auc : 0.93091, accuracy : 0.93195
+Epoch 9/25, valid auc : 0.91462, valid accuracy : 0.92871
+0.9137 to 0.9146
+test_auc: 0.9109	test_accuracy: 0.9224	test_loss: 0.2165	
+Epoch 10/25, loss : 0.18732, auc : 0.93193, accuracy : 0.93215
+Epoch 10/25, valid auc : 0.91517, valid accuracy : 0.92877
+0.9146 to 0.9152
+test_auc: 0.9115	test_accuracy: 0.9225	test_loss: 0.2160	
+Epoch 11/25, loss : 0.18678, auc : 0.93255, accuracy : 0.93222
+Epoch 11/25, valid auc : 0.91562, valid accuracy : 0.92856
+0.9152 to 0.9156
+test_auc: 0.9121	test_accuracy: 0.9225	test_loss: 0.2156	
+Epoch 12/25, loss : 0.18620, auc : 0.93317, accuracy : 0.93235
+Epoch 12/25, valid auc : 0.91595, valid accuracy : 0.92881
+0.9156 to 0.9159
+test_auc: 0.9125	test_accuracy: 0.9227	test_loss: 0.2151	
+Epoch 13/25, loss : 0.18569, auc : 0.93366, accuracy : 0.93252
+Epoch 13/25, valid auc : 0.91632, valid accuracy : 0.92910
+0.9159 to 0.9163
+test_auc: 0.9129	test_accuracy: 0.9229	test_loss: 0.2146	
+Epoch 14/25, loss : 0.18524, auc : 0.93417, accuracy : 0.93260
+Epoch 14/25, valid auc : 0.91645, valid accuracy : 0.92907
+0.9163 to 0.9164
+test_auc: 0.9131	test_accuracy: 0.9229	test_loss: 0.2145	
+Epoch 15/25, loss : 0.18493, auc : 0.93442, accuracy : 0.93265
+Epoch 15/25, valid auc : 0.91677, valid accuracy : 0.92909
+0.9164 to 0.9168
+test_auc: 0.9134	test_accuracy: 0.9231	test_loss: 0.2142	
+Epoch 16/25, loss : 0.18462, auc : 0.93469, accuracy : 0.93267
+Epoch 16/25, valid auc : 0.91690, valid accuracy : 0.92922
+0.9168 to 0.9169
+test_auc: 0.9136	test_accuracy: 0.9232	test_loss: 0.2141	
+Epoch 17/25, loss : 0.18460, auc : 0.93471, accuracy : 0.93260
+Epoch 17/25, valid auc : 0.91698, valid accuracy : 0.92927
+0.9169 to 0.9170
+test_auc: 0.9137	test_accuracy: 0.9232	test_loss: 0.2139	
+Epoch 18/25, loss : 0.18421, auc : 0.93507, accuracy : 0.93277
+Epoch 18/25, valid auc : 0.91718, valid accuracy : 0.92928
+0.9170 to 0.9172
+test_auc: 0.9139	test_accuracy: 0.9231	test_loss: 0.2138	
+Epoch 19/25, loss : 0.18410, auc : 0.93525, accuracy : 0.93285
+Epoch 19/25, valid auc : 0.91727, valid accuracy : 0.92934
+0.9172 to 0.9173
+test_auc: 0.9140	test_accuracy: 0.9232	test_loss: 0.2137	
+Epoch 20/25, loss : 0.18379, auc : 0.93554, accuracy : 0.93273
+Epoch 20/25, valid auc : 0.91735, valid accuracy : 0.92937
+0.9173 to 0.9174
+test_auc: 0.9140	test_accuracy: 0.9233	test_loss: 0.2136	
+Epoch 21/25, loss : 0.18368, auc : 0.93561, accuracy : 0.93275
+Epoch 21/25, valid auc : 0.91742, valid accuracy : 0.92941
+0.9174 to 0.9174
+test_auc: 0.9141	test_accuracy: 0.9233	test_loss: 0.2135	
+Epoch 22/25, loss : 0.18343, auc : 0.93581, accuracy : 0.93281
+Epoch 22/25, valid auc : 0.91749, valid accuracy : 0.92941
+0.9174 to 0.9175
+test_auc: 0.9142	test_accuracy: 0.9233	test_loss: 0.2136	
+Epoch 23/25, loss : 0.18340, auc : 0.93586, accuracy : 0.93284
+Epoch 23/25, valid auc : 0.91757, valid accuracy : 0.92954
+0.9175 to 0.9176
+test_auc: 0.9143	test_accuracy: 0.9234	test_loss: 0.2134	
+Epoch 24/25, loss : 0.18317, auc : 0.93609, accuracy : 0.93300
+Epoch 24/25, valid auc : 0.91763, valid accuracy : 0.92953
+0.9176 to 0.9176
+test_auc: 0.9143	test_accuracy: 0.9234	test_loss: 0.2134	
+Epoch 25/25, loss : 0.18305, auc : 0.93620, accuracy : 0.93288
+Epoch 25/25, valid auc : 0.91775, valid accuracy : 0.92948
+0.9176 to 0.9178
+test_auc: 0.9144	test_accuracy: 0.9234	test_loss: 0.2132	
+best outcome: best epoch: 25.0000
+valid_auc: 0.9178	valid_accuracy: 0.9295	valid_loss: 0.2003	
+test_auc: 0.9144	test_accuracy: 0.9234	test_loss: 0.2132	
