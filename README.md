@@ -10,7 +10,7 @@ Specifically, we propose a method called Forward-Looking Knowledge Tracing (FINE
 FINER constructs learning patterns that facilitate retrieval of FPTs from historical ITS data in linear time; 
 FINER includes a novel similarity-aware attention mechanism that aggregates FPTs based on both frequency and contextual similarity; 
 and FINER offers means of combining FPTs and historical learning sequences to enable more accurate prediction of student future performance. 
-Experiments on six real-world datasets show that FINER is able to outperform ten state-of-the-art KT methods, increasing accuracy by 13.25% to 84.91%.
+Experiments on six real-world datasets show that FINER is able to outperform ten state-of-the-art KT methods, increasing accuracy by 8.74% to 84.85%.
 
 ## Code Structure
 
